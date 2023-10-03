@@ -42,7 +42,7 @@ Este repositorio es de acceso libre y está destinado a fines educativos. Cualqu
 
 Si tienes alguna pregunta, comentario o sugerencia, no dudes en contactarme.
 
-- 📧 Contacto: Puedes contactarme a traves de linkedin, el formulario de contacto de la pagina web, o enviandome un mensaje a mi cuenta de GitHub
+- 📧 Contacto: Puedes contactarme a traves de linkedin, el formulario de contacto de la pagina web, o tal vez prefieras hacer una pull request ingeniosa.
 - 💼 LinkedIn: [Linkedin Jose Maria Aranguren](https://www.linkedin.com/in/jose-maria-aranguren-080a70b3/)
 - 🌍 Sitio Web: [jmaranguren.work](https://jmaranguren.work)
 
