@@ -1,42 +1,36 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ejercicio 3</title>
 </head>
+
 <body>
 
-    
-    <div height="100%">
 
-        <form action="post"> 
+    <form action="post">
 
             <table border="1">
-                
-                
+
+
                 <tr>
                     <td>
-                        Nombre:     
+                        Nombre:
                     </td>
                     <td>
-                        <input type="text"> Fecha nacimiento: 
-                    </td>
-                    <td>
-                        <input type="text"> DNI: 
-                    </td>
-                    <td>
-                        <input type="text">
+                        <input type="text"> Fecha nacimiento: <input type="date"> DNI: <input type="text">
                     </td>
                 </tr>
 
                 <tr>
                     <td>
-                        Apellidos: 
+                        Apellidos:
                     </td>
-                    
-                    <td colspan="3" >
-                        <input type="text" width="100%" >
+
+                    <td>
+                        <input type="text" size="75%" >
                     </td>
 
                 </tr>
@@ -47,7 +41,7 @@
                     </td>
 
                     <td>
-                        <input type="text" width="100%" >
+                        <input type="text" size="75%">
                     </td>
 
                 </tr>
@@ -57,26 +51,18 @@
                         Codigo Postal
                     </td>
                     <td>
-                        <input type="text" width="100%" > Ciudad: 
-                        
+                        <input type="number" size="35%"> Ciudad: <input type="text" size="35%">
                     </td>
-                    <td>
-                        <input type="text" width="100%" >
-                    </td>
-
                 </tr>
-                    <td>
-                        Provincia:     
-                    </td>
-                    <td>
-                        <input type="text" width="100%" > Telefono:
-                    </td>
-                    <td>
-                        <input type="text" width="100%" >
-                    </td>
+                <td>
+                    Provincia:
+                </td>
+                <td>
+                    <input type="text" size="35%"> Telefono:<input type="number" size="35%">
+                </td>
                 <tr>
                     <td>
-                        Opcion:     
+                        Opcion:
                     </td>
                     <td>
                         <select>
@@ -94,32 +80,36 @@
                     </td>
                 </tr>
                 <tr>
-                    <td>
-                        Comentarios personales:     
+                    <td  rowspan="2">
+                        Comentarios personales:
                     </td>
-                    <td>
-                        <input type="text" width="100%" >
+                    <td rowspan="2" >
+                        <input type="text" height="100%" size="85%">
                     </td>
+                 
                 </tr>
+
+                <tr>
+                </tr>
+             
+         
                 <tr>
                     <td>
-                        Pulse aqui:     
+                        Pulse aqui:
                     </td>
                     <td>
                         <button type="submit">Enviar datos</button>
                         <button type="button">Borrar los datos</button>
                     </td>
                 </tr>
-                
-           
-           
             </table>
 
         </form>
-    </div>
+    
 
 
-    
-    
+
+
 </body>
+
 </html>
