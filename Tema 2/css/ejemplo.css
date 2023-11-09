@@ -1,0 +1,28 @@
+body {
+    background-color: lightgray;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 3%;
+}
+
+h1 {
+    text-align: center;
+    font-size: 36px;
+    letter-spacing: 8px;
+    
+    }
+
+h2 {
+    background-color: grey;
+    color: white;
+    padding-block: 15px;
+}
+
+em {
+    color: red;
+}
+
+strong {
+    background-color: white;
+    
+}
