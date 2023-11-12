@@ -4,15 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="/Actividad1 Trimestre 1/css/botones.css">
+    <link rel="stylesheet" href="/Actividad1 Trimestre 1/css/cards.css">
     <title>Tu Tienda Online</title>
 </head>
 <body>
     <header>
         <h1>Tu Tienda Online</h1>
+        
         <nav>
             <ul>
-                <li><a href="producto.html">Ejemplo de Producto</a></li>
-                <li><a href="contacto.html">Formulario de Contacto</a></li>
+                <li><a class="botonheader" href="index.html">Portada</a></li>
+                <li><a class="botonheader" href="producto.html">Ejemplo de Producto</a></li>
+                <li><a class="botonheader" href="contacto.html">Formulario de Contacto</a></li>
             </ul>
         </nav>
     </header>
@@ -20,11 +24,55 @@
     <section class="main-content">
         <h2>Bienvenido a Tu Tienda Online</h2>
         <p>Explora nuestra amplia selección de productos y encuentra lo que necesitas.</p>
-        <!-- Agrega más elementos visuales aquí -->
+         
+        <div class ="contenedortarjetas">
+            <div id="card1" class="card">
+                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 5H4V19L13.2923 9.70649C13.6828 9.31595 14.3159 9.31591 14.7065 9.70641L20 15.0104V5ZM2 3.9934C2 3.44476 2.45531 3 2.9918 3H21.0082C21.556 3 22 3.44495 22 3.9934V20.0066C22 20.5552 21.5447 21 21.0082 21H2.9918C2.44405 21 2 20.5551 2 20.0066V3.9934ZM8 11C6.89543 11 6 10.1046 6 9C6 7.89543 6.89543 7 8 7C9.10457 7 10 7.89543 10 9C10 10.1046 9.10457 11 8 11Z"></path></svg>
+                <div class="card__content">
+                  <p class="card__title">Card Title
+                  </p><p class="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+                </div>
+              </div>
+
+              <div id="card2" class="card">
+                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 5H4V19L13.2923 9.70649C13.6828 9.31595 14.3159 9.31591 14.7065 9.70641L20 15.0104V5ZM2 3.9934C2 3.44476 2.45531 3 2.9918 3H21.0082C21.556 3 22 3.44495 22 3.9934V20.0066C22 20.5552 21.5447 21 21.0082 21H2.9918C2.44405 21 2 20.5551 2 20.0066V3.9934ZM8 11C6.89543 11 6 10.1046 6 9C6 7.89543 6.89543 7 8 7C9.10457 7 10 7.89543 10 9C10 10.1046 9.10457 11 8 11Z"></path></svg>
+                <div class="card__content">
+                  <p class="card__title">Card Title
+                  </p><p class="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+                </div>
+              </div>
+
+              <div id="card3" class="card">
+                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 5H4V19L13.2923 9.70649C13.6828 9.31595 14.3159 9.31591 14.7065 9.70641L20 15.0104V5ZM2 3.9934C2 3.44476 2.45531 3 2.9918 3H21.0082C21.556 3 22 3.44495 22 3.9934V20.0066C22 20.5552 21.5447 21 21.0082 21H2.9918C2.44405 21 2 20.5551 2 20.0066V3.9934ZM8 11C6.89543 11 6 10.1046 6 9C6 7.89543 6.89543 7 8 7C9.10457 7 10 7.89543 10 9C10 10.1046 9.10457 11 8 11Z"></path></svg>
+                <div class="card__content">
+                  <p class="card__title">Card Title
+                  </p><p class="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+                </div>
+              </div>
+
+
+            </div>
+
+
     </section>
 
     <footer>
-        <p>&copy; 2023 Tu Tienda Online</p>
+        <span>&copy; 2023 Tu Tienda Online</span>
+        <button>
+            <div class="text">
+                <span>Back</span>
+                <span>to</span>
+                <span>top</span>
+            </div>
+            <div class="clone">
+                <span>Back</span>
+                <span>to</span>
+                <span>top</span>
+            </div>
+            <svg width="20px" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+            </svg>
+        </button>
     </footer>
 </body>
 </html>
