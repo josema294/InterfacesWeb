@@ -1,3 +1,9 @@
+@font-face {
+    font-family: 'robtronika-font';
+    src: url('/Actividad1 Trimestre 1/resources/font/robtronika-font/Robtronika-4Bq8p.ttf') format('truetype'),
+        url('/Actividad1 Trimestre 1/resources/font/robtronika-font/RobtronikaItalic-0Wqn9.ttf') format('truetype'),
+}
+
 body {
     font-family: 'Arial', sans-serif;
     margin: 0;
@@ -7,31 +13,45 @@ body {
 
 header {
     background-color: #333;
-    color:  #fa725a;
+    color: #fa725a;
     padding: 40px;
+    margin: 10px;
+    border-radius: 60px;
     text-align: center;
+
+}
+
+header div {
+    display: flex;
+}
+
+.logoheader {
+    width: 200;
+    height: 200px;
+    margin-left: 20px;
 }
 
 .titulo {
 
-    font-family: 'Comic Sans MS', cursive; 
+    font-family: 'robtronika-font';
+    font-size: 60px;
     color: #fa725a;
-    text-align: center;
-    margin-bottom: 20px; 
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Sombra suave para destacar el texto */
+    margin-left: 50px;
+    margin-bottom: 20px;
+    text-shadow: 6px 6px 4px rgba(0, 0, 0, 0.3);
+    /* Sombra suave para destacar el texto */
 }
+
 /* Estilos adicionales para hacer que el texto sea más divertido */
 
 .titulo:hover {
-    color: #ffffff; /* Cambiar a blanco al pasar el ratón por encima */
+    color: #ffffff;
+    /* Cambiar a blanco al pasar el ratón por encima */
 }
-
-
-
 
 .listaheader {
     list-style-type: none;
-    
+
     margin: 0;
     padding: 0;
 }
@@ -49,6 +69,24 @@ nav li {
 
 .main-content {
     padding: 20px;
+    margin-bottom: 100px;
+}
+
+.subtitulo {
+    font-family: 'robtronika-font';
+    font-size: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    color: #fa725a;
+
+}
+
+.descripcion {
+    font-family: 'robtronika-font';
+    font-size: 14px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+    color: #333;
+    margin-top: 10px;
+
 }
 
 .product-details {
