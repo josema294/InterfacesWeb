@@ -1,21 +1,39 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styles.css">
     <title>Ejemplo de Producto - Tu Tienda Online</title>
 </head>
+
 <body>
-       <header>
-        <h1>Tu Tienda Online</h1>
+    <header>
+        <div><img class="logoheader" src="/Actividad1 Trimestre 1/resources/logoroboto.png" alt="logo de la tienda">
+            <h1 class="titulo">Robotto Store</h1>
+        </div>
+
         <nav>
-            <ul>
-                <li><a class="botonheader" href="index.html">Portada</a></li>
-                <li><a class="botonheader" href="producto.html">Ejemplo de Producto</a></li>
-                <li><a class="botonheader" href="contacto.html">Formulario de Contacto</a></li>
+            <ul class="listaheader">
+                <li>
+                    <form class="formheader" action="index.html" method="get">
+                        <button type="submit">Home</button>
+                    </form>
+                </li>
+                <li>
+                    <form class="formheader" action="producto.html" method="get">
+                        <button type="submit">Producto</button>
+                    </form>
+                </li>
+                <li>
+                    <form class="formheader" action="contacto.html" method="get">
+                        <button type="submit">Contacto</button>
+                    </form>
+                </li>
             </ul>
         </nav>
+
     </header>
 
     <section class="product-details">
@@ -27,7 +45,9 @@
     </section>
 
     <footer>
-        <p>&copy; 2023 Tu Tienda Online</p>
+        <span>&ccaps; 2023 Robotto Store. Pagina Web Ficticia con fines educativos para el CFGS de DAW 2023 en la
+            universidad Europea</span>
     </footer>
 </body>
+
 </html>
