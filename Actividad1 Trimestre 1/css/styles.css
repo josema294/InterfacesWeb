@@ -9,6 +9,8 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
+    
 }
 
 header {
@@ -39,14 +41,14 @@ header div {
     margin-left: 50px;
     margin-bottom: 20px;
     text-shadow: 6px 6px 4px rgba(0, 0, 0, 0.3);
-    /* Sombra suave para destacar el texto */
+    
 }
 
-/* Estilos adicionales para hacer que el texto sea más divertido */
+
 
 .titulo:hover {
     color: #ffffff;
-    /* Cambiar a blanco al pasar el ratón por encima */
+    
 }
 
 .listaheader {
@@ -112,9 +114,9 @@ nav li {
 
 .fotos {
     display: flex;
-    justify-content: center; /* Centra las imágenes horizontalmente */
-    flex-wrap: wrap; /* Permite que las imágenes se ajusten en pantallas más pequeñas */
-    gap: 30px; /* Espacio entre imágenes, puedes cambiarlo a 40px si lo prefieres */;
+    justify-content: center; 
+    flex-wrap: wrap; 
+    gap: 30px;  
 }
 
 .localizacion{
