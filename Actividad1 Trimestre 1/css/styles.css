@@ -138,6 +138,11 @@ nav li {
     padding-top: 20px;
 }
 
+.contenedorimagenes {
+    display: flex;
+    justify-content: center;
+}
+
 footer {
     background-color: #333;
     color: #fff;

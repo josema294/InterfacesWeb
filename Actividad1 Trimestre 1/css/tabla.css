@@ -1,0 +1,38 @@
+@font-face {
+    font-family: 'robtronika-font';
+    src: url('/Actividad1 Trimestre 1/resources/font/robtronika-font/Robtronika-4Bq8p.ttf') format('truetype'),
+        url('/Actividad1 Trimestre 1/resources/font/robtronika-font/RobtronikaItalic-0Wqn9.ttf') format('truetype'),
+}
+
+.tablaproducto {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 12px; 
+    font-family: 'robtronika-font';
+    min-width: 200px; 
+   
+}
+
+.tablaproducto th, .tablaproducto td {
+    padding: 12px 15px; 
+    text-align: left; 
+}
+
+.tablaproducto th {
+    background-color: #fa725a; 
+    color: white;
+    letter-spacing: 1px;
+}
+
+.tablaproducto tr {
+    border-bottom: 1px solid #dddddd; 
+}
+
+
+.tablaproducto tr:nth-of-type(even) {
+    background-color: #f3f3f3; /* Color de fondo para filas pares */
+}
+
+.tablaproducto tr:hover {
+    background-color: #f1f1f1; /* Color de fondo al pasar el mouse sobre una fila */
+}
