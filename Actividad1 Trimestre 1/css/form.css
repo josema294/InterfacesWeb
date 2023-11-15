@@ -1,66 +1,57 @@
-.formulario {
-    width: 340px;
-    height: 440px;
-    background: #e6e6e6;
+@font-face {
+    font-family: 'robtronika-font';
+    src: url('/Actividad1 Trimestre 1/resources/font/robtronika-font/Robtronika-4Bq8p.ttf') format('truetype'),
+        url('/Actividad1 Trimestre 1/resources/font/robtronika-font/RobtronikaItalic-0Wqn9.ttf') format('truetype'),
+}
+.contentform {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+
+}
+
+.form {
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin: auto,auto;
+    gap: 10px;
+    width: 600px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 30px 30px -30px rgba(27, 26, 26, 0.315);
+  }
+  
+  .form .title {
+    color: #fa725a;
+    font-family: 'robtronika-font';
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: -1px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .form input {
+    outline: 0;
+    border: 1px solid rgb(219, 213, 213);
+    padding: 8px 14px;
     border-radius: 8px;
-    box-shadow: 0 0 40px -10px #000;
-    margin: calc(50vh - 220px) auto;
-    padding: 20px 30px;
-    max-width: calc(100vw - 40px);
-    box-sizing: border-box;
-    font-family: 'Montserrat', sans-serif;
-    position: relative
-}
-
-.tituloform {
-    margin: 10px 0;
-    padding-bottom: 10px;
-    width: 180px;
-    color: #78788c;
-    border-bottom: 3px solid #78788c
-}
-
-form input {
     width: 100%;
-    padding: 10px;
-    box-sizing: border-box;
-    background: none;
-    outline: none;
+    height: 50px;
+  }
+  
+  .form textarea {
+    border-radius: 8px;
+    height: 100px;
+    width: 100%;
     resize: none;
-    border: 0;
-    font-family: 'Montserrat', sans-serif;
-    transition: all .3s;
-    border-bottom: 2px solid #bebed2
-}
-
-form input:focus {
-    border-bottom: 2px solid #78788c
-}
-
-form p:before {
-    content: attr(type);
-    display: block;
-    margin: 28px 0 0;
-    font-size: 14px;
-    color: #5a5a5a
-}
-
-
-
-form div {
-    content: 'Hi';
-    position: absolute;
-    bottom: -15px;
-    right: -20px;
-    background: #50505a;
-    color: #fff;
-    width: 320px;
-    padding: 16px 4px 16px 0;
-    border-radius: 6px;
-    font-size: 13px;
-    box-shadow: 10px 10px 40px -14px #000
-}
-
-form span {
-    margin: 0 5px 0 15px
-}
+    outline: 0;
+    padding: 8px 14px;
+    border: 1px solid rgb(219, 213, 213);
+  }

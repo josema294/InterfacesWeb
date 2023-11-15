@@ -10,7 +10,6 @@ body {
     padding: 0;
     box-sizing: border-box;
 
-    
 }
 
 header {
@@ -41,14 +40,12 @@ header div {
     margin-left: 50px;
     margin-bottom: 20px;
     text-shadow: 6px 6px 4px rgba(0, 0, 0, 0.3);
-    
+
 }
-
-
 
 .titulo:hover {
     color: #ffffff;
-    
+
 }
 
 .listaheader {
@@ -79,6 +76,7 @@ nav li {
     font-size: 20px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
     color: #fa725a;
+    padding-top: 20px;
 
 }
 
@@ -96,12 +94,6 @@ nav li {
     padding: 20px;
 }
 
-.contact-form {
-    max-width: 400px;
-    margin: 0 auto;
-    padding: 20px;
-}
-
 .imagenes {
     display: flex;
     justify-content: center;
@@ -109,19 +101,20 @@ nav li {
     font-size: 14px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
     color: #fa725a;
-    
+
 }
 
 .fotos {
     display: flex;
-    justify-content: center; 
-    flex-wrap: wrap; 
-    gap: 30px;  
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
 }
 
-.localizacion{
+.localizacion {
     margin-bottom: 200px;
 }
+
 .sobremap {
     display: flex;
     justify-content: center;
@@ -131,11 +124,19 @@ nav li {
     color: #fa725a;
 
 }
+
 .mapcont {
     display: flex;
     justify-content: center;
 }
 
+.contactainstrucciones {
+    font-family: 'robtronika-font';
+    font-size: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    color: #fa725a;
+    padding-top: 20px;
+}
 
 footer {
     background-color: #333;
