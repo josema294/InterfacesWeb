@@ -1,10 +1,96 @@
+@font-face {
+    font-family: Lobster;
+    src: url(https://fonts.googleapis.com/css?family=Lobster);
+}
+
+
+
+
 .container {
 
     display: flex;
+    flex-direction: column;
+    font-family: Lobster;
+    color: rgb(80, 80, 80);
+    width: 90%;
+    margin: 0 auto;
+    
 }
 
 .content_wrapper {
     display: flex;
+    flex-direction: row;
     
+}
+
+.content_wrapper main, .content_wrapper article {
+
+    padding-left: 20%;
+}
+
+.articles {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    height: 300px;
+}
+
+header {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    margin: 0;
+    line-height: 0%;
+    border-bottom: 2px solid rgb(80, 80, 80); 
+    margin-bottom: 5%
 
 }
+
+
+
+nav{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1%;
+
+}
+
+nav div{
+    margin-top: 50%;
+}
+
+main, article {
+
+    border: solid 1px;
+    border-radius: 5%;
+    margin: 2%;
+    border-color: rgb(80, 80, 80);
+
+
+}
+
+footer{
+
+    display: flex ;
+    flex-direction: row;
+    justify-content: space-between;
+    border-top: 1px solid;
+    align-items: flex-end;
+}
+
+footer img {
+    height: 60px;
+    width: 60px;
+}
+
+img {
+
+    width: 100%;
+    height: 50%;
+    
+    display: block; 
+    border-radius: 15px;
+}
+
+
