@@ -3,9 +3,6 @@
     src: url(https://fonts.googleapis.com/css?family=Lobster);
 }
 
-
-
-
 .container {
 
     display: flex;
@@ -14,13 +11,13 @@
     color: rgb(80, 80, 80);
     width: 90%;
     margin: 0 auto;
-    
+
 }
 
 .content_wrapper {
     display: flex;
     flex-direction: row;
-    
+
 }
 
 
@@ -35,28 +32,26 @@ header {
 
     display: flex;
     flex-direction: column;
-    align-items: center; 
+    align-items: center;
     margin: 0;
     line-height: 0%;
-    border-bottom: 2px solid rgb(80, 80, 80); 
+    border-bottom: 2px solid rgb(80, 80, 80);
     margin-bottom: 5%
-
 }
 
-
-
-nav{
+nav {
     display: flex;
     flex-direction: column;
     margin-top: 1%;
 
 }
 
-nav div{
+nav div {
     margin-top: 50%;
 }
 
-main, article {
+main,
+article {
 
     display: flex;
     flex-direction: column;
@@ -67,16 +62,14 @@ main, article {
     border-color: rgb(80, 80, 80);
 }
 
+footer {
 
-
-footer{
-
-    display: flex ;
+    display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     border-top: 1px solid;
-   
+
     margin-top: 15px;
 }
 
@@ -85,20 +78,14 @@ footer img {
     width: 60px;
 }
 
-
-
 img {
-   
+
     border-radius: 15px;
     width: 500px;
     height: 175px;
     margin: 10px;
 }
 
-p{
+p {
     margin: 1%;
 }
-
-
-
-
