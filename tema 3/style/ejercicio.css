@@ -23,10 +23,6 @@
     
 }
 
-.content_wrapper main, .content_wrapper article {
-
-    padding-left: 20%;
-}
 
 .articles {
     display: flex;
@@ -62,21 +58,26 @@ nav div{
 
 main, article {
 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     border: solid 1px;
     border-radius: 5%;
     margin: 2%;
     border-color: rgb(80, 80, 80);
-
-
 }
+
+
 
 footer{
 
     display: flex ;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
     border-top: 1px solid;
-    align-items: flex-end;
+   
+    margin-top: 15px;
 }
 
 footer img {
@@ -84,13 +85,20 @@ footer img {
     width: 60px;
 }
 
-img {
 
-    width: 100%;
-    height: 50%;
-    
-    display: block; 
+
+img {
+   
     border-radius: 15px;
+    width: 500px;
+    height: 175px;
+    margin: 10px;
 }
+
+p{
+    margin: 1%;
+}
+
+
 
 
