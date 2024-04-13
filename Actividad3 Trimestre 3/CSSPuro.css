@@ -1,0 +1,143 @@
+/* Estilos generales
+
+La paleta de colores:
+• #f6f6eb
+• #11284b
+• #381fd1
+• #4b4b4e
+• #ffffff
+• #f3f2fc
+
+
+*/
+
+body{
+    margin: 20px
+}
+
+h1{
+   font-size:  40px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    color: #11284b;
+}
+
+header {
+    background-color: #f6f6eb;
+    color: #11284b;
+    padding: 20px;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+}
+
+aside {
+    flex: 1;
+    background-color: #ffffff;
+    color: #ffffff;
+    padding: 20px;
+    margin-left: 10px;
+}
+
+.search-bar input {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.search-bar button {
+    padding: 10px 20px;
+    background-color: #381fd1;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+}
+
+.navigation-links ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navigation-links ul li {
+    margin-bottom: 10px;
+}
+
+.content {
+    flex: 3;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.articles {
+    display: flex;
+    flex: 3;
+    flex-wrap: wrap;
+    padding: 20px;
+    flex-direction: row;
+    
+}
+
+.card {
+    background-color: #ffffff;
+    padding: 20px;
+    margin-bottom: 20px;
+    width: calc(33.33% - 40px);
+    box-sizing: border-box;
+}
+.vertical-card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    font-size: 20px;
+    padding: 30px;
+    margin: 10;
+}
+
+
+.vertical-card .background-image {
+    background-image: url("./img/pexels-expect-best-351263.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+
+footer {
+    background-color: #11284b;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    clear: both;
+}
