@@ -1,5 +1,6 @@
 /* Estilos generales
 
+
 La paleta de colores:
 • #f6f6eb
 • #11284b
@@ -11,9 +12,15 @@ La paleta de colores:
 
 */
 
-body{
-    margin: 20px
+.muestreoColores {
+    color:  #f6f6eb;
+    color:  #11284b;
+    color:  #381fd1;
+    color:  #4b4b4e;
+    color:  #ffffff;
+    color:  #f3f2fc;
 }
+
 
 h1{
    font-size:  40px;
@@ -21,7 +28,7 @@ h1{
 
 body {
     font-family: Arial, sans-serif;
-    margin: 0;
+    margin: 100px;
     padding: 0;
     background-color: #ffffff;
     color: #11284b;
@@ -29,11 +36,11 @@ body {
 
 header {
     background-color: #f6f6eb;
-    color: #11284b;
-    padding: 20px;
     
+    padding: 20px;
     display: flex;
     justify-content: space-between;
+    
     align-items: center;
 }
 
@@ -45,12 +52,15 @@ nav ul {
 
 nav ul li {
     display: inline;
-    margin-right: 20px;
+    margin-inline-start: 100px;
 }
 
 nav ul li a {
-    color: #ffffff;
+    color: #381fd1;
     text-decoration: none;
+    font-size: 30px;
+    
+    
 }
 
 main {
@@ -63,6 +73,7 @@ aside {
     color: #ffffff;
     padding: 20px;
     margin-left: 10px;
+    max-width: 10%;
 }
 
 .search-bar input {
@@ -86,7 +97,14 @@ aside {
 }
 
 .navigation-links ul li {
-    margin-bottom: 10px;
+    margin-top: 10%;
+     ;
+   
+}
+.navigation-links ul li a {
+    text-decoration: none;
+    color: #4b4b4e;
+    font-size: 20px;
 }
 
 .content {
@@ -108,7 +126,9 @@ aside {
 
 .card {
     background-color: #ffffff;
+    border: 1px solid #f3f2fc ;
     padding: 20px;
+    margin-inline: 20px;
     margin-bottom: 20px;
     width: calc(33.33% - 40px);
     box-sizing: border-box;
@@ -118,6 +138,7 @@ aside {
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin-bottom: 20px;
+    margin-inline: 20px;
     font-size: 20px;
     padding: 30px;
     margin: 10;
