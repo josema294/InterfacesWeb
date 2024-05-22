@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chuleta Flexbox</title>
+    <link rel="stylesheet" href="FlexBox.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Chuleta Flexbox</h1>
+
+        <!-- Contenedor Flex -->
+        <section>
+            <h2>Contenedor Flex</h2>
+            <div class="flex-container">
+                <div class="flex-item">Item 1</div>
+                <div class="flex-item">Item 2</div>
+                <div class="flex-item">Item 3</div>
+            </div>
+            <hr>
+        </section>
+
+        <!-- Dirección del Eje Principal -->
+        <section>
+            <h2>Dirección del Eje Principal</h2>
+            <div class="flex-container row">
+                <div class="flex-item">Row1</div>
+                <div class="flex-item">Row2</div>
+                <div class="flex-item">Row3</div>
+            </div>
+            <div class="flex-container row-reverse mt-3">
+                <div class="flex-item">Row1 Reverse</div>
+                <div class="flex-item">Row2 Reverse</div>
+                <div class="flex-item">Row3 Reverse</div>
+            </div>
+            <div class="flex-container column mt-3">
+                <div class="flex-item">Column1</div>
+                <div class="flex-item">Column2</div>
+                <div class="flex-item">Column3</div>
+            </div>
+            <div class="flex-container column-reverse mt-3">
+                <div class="flex-item">Column1 Reverse</div>
+                <div class="flex-item">Column2 Reverse</div>
+                <div class="flex-item">Column3 Reverse</div>
+            </div>
+            <hr>
+        </section>
+
+        <!-- Alineación en el Eje Principal -->
+        <section>
+            <h2>Alineación en el Eje Principal (justify-content)</h2>
+            <div class="flex-container justify-start">
+                <div class="flex-item">Start</div>
+                <div class="flex-item">Start</div>
+                <div class="flex-item">Start</div>
+            </div>
+            <div class="flex-container justify-center mt-3">
+                <div class="flex-item">Center</div>
+                <div class="flex-item">Center</div>
+                <div class="flex-item">Center</div>
+            </div>
+            <div class="flex-container justify-end mt-3">
+                <div class="flex-item">End</div>
+                <div class="flex-item">End</div>
+                <div class="flex-item">End</div>
+            </div>
+            <div class="flex-container justify-between mt-3">
+                <div class="flex-item">Between</div>
+                <div class="flex-item">Between</div>
+                <div class="flex-item">Between</div>
+            </div>
+            <div class="flex-container justify-around mt-3">
+                <div class="flex-item">Around</div>
+                <div class="flex-item">Around</div>
+                <div class="flex-item">Around</div>
+            </div>
+            <hr>
+        </section>
+
+        <!-- Alineación en el Eje Transversal -->
+        <section>
+            <h2>Alineación en el Eje Transversal (align-items)</h2>
+            <div class="flex-container align-start" style="height: 150px;">
+                <div class="flex-item">Start</div>
+                <div class="flex-item">Start</div>
+                <div class="flex-item">Start</div>
+            </div>
+            <div class="flex-container align-center mt-3" style="height: 150px;">
+                <div class="flex-item">Center</div>
+                <div class="flex-item">Center</div>
+                <div class="flex-item">Center</div>
+            </div>
+            <div class="flex-container align-end mt-3" style="height: 150px;">
+                <div class="flex-item">End</div>
+                <div class="flex-item">End</div>
+                <div class="flex-item">End</div>
+            </div>
+            <hr>
+        </section>
+
+        <!-- Alineación de Contenido -->
+        <section>
+            <h2>Alineación de Contenido (align-content)</h2>
+            <div class="flex-container content-start" style="height: 300px; flex-wrap: wrap;">
+                <div class="flex-item">Start 1</div>
+                <div class="flex-item">Start 2</div>
+                <div class="flex-item">Start 3</div>
+                <div class="flex-item">Start 4</div>
+                <div class="flex-item">Start 5</div>
+                <div class="flex-item">Start 6</div>
+            </div>
+            <div class="flex-container content-center mt-3" style="height: 300px; flex-wrap: wrap;">
+                <div class="flex-item">Center 1</div>
+                <div class="flex-item">Center 2</div>
+                <div class="flex-item">Center 3</div>
+                <div class="flex-item">Center 4</div>
+                <div class="flex-item">Center 5</div>
+                <div class="flex-item">Center 6</div>
+            </div>
+            <div class="flex-container content-end mt-3" style="height: 300px; flex-wrap: wrap;">
+                <div class="flex-item">End 1</div>
+                <
